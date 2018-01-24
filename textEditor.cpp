@@ -275,7 +275,7 @@ void insertCharacter(char ch, int lineNumber, int column){
             currentCharacter->column++;
             currentCharacter = currentCharacter->nextCharacter;
         }
-        cout<<"\nCharacter \""<<ch<<"\" is inserted.\n";
+        cout<<"\nCharacter \""<<ch<<"\" is inserted at Line Number: "<< lineNumber << ", Column: " <<column <<"\n";
     }
     else{
         // yet to implement
